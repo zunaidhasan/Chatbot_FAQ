@@ -16,28 +16,28 @@ The FAQ Chatbot is a simple automated responder that answers frequently asked qu
 
 ## Installation
 
-```bash
-git clone https://github.com/yourusername/codealpha_tasks.git
-cd codealpha_tasks/chatbot_faq
-pip install -r requirements.txt
+- Install dependencies using:
+  ```bash
+  pip install -r requirements.txt
 
-## Set Up a Virtual Environment (optional but recommended)
 
-```bash
+- Set Up a Virtual Environment (optional but recommended)
+   ```bash
    python -m venv venv
    source venv/bin/activate  # On Windows use venv\Scripts\activate
-   
-## Install Required Libraries
 
-```bash
-   pip install nltk
-   pip install spacy  # Only if you plan to use SpaCy
-   python -m spacy download en_core_web_sm  # Necessary for SpaCy
-   
+
+ - Install Required Libraries
+
+   ```bash
+      pip install nltk
+      pip install spacy  # Only if you plan to use SpaCy
+      python -m spacy download en_core_web_sm  # Necessary for SpaCy
+
 
 ## Interacting with the Chatbot
-   Type your questions as prompted.
-   To exit the chat, type quit.
+- Type your questions as prompted.
+- To exit the chat, type quit.
 
 ## Adding More Questions
 
@@ -51,10 +51,9 @@ If you would like to contribute to the project, please fork the repository and c
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
-https://www.nltk.org/
+https://www.nltk.org/ <br/>
 https://spacy.io/
 
-Author
-Zunaid Hasan
-hasan15-6033@diu.edu.bd
+## Author
+Zunaid Hasan <br/>hasan15-6033@diu.edu.bd
 
